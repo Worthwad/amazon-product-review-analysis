@@ -5,7 +5,7 @@ Role: Junior Data Analyst Company: RetailTech Insights Tools: Microsoft Excel (P
 
 ## Project Overview
 
-As part of a data analytics engagement at RetailTech Insights, I led the analysis of product and customer review data scraped from Amazon product pages. The goal was to generate insights for product development, marketing strategies, and customer engagement. This analysis leveraged Excel to clean, structure, and visualize data that could drive smart business decisions for Amazon sellers.
+As part of a data analytics engagement at RetailTech Insights for DSA Final Project work, I work on the analysis of product and customer review data scraped from Amazon product pages. The goal was to generate insights for product development, marketing strategies, and customer engagement. This analysis leveraged Excel to clean, structure, and visualize data that could drive smart business decisions for Amazon sellers.
 
 ## Data Cleaning Steps
 ### Inspected Data Types & Structure Reviewed fields including product name, category, prices, discount, ratings, and aggregated reviews.
