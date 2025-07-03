@@ -63,9 +63,9 @@ amazon-review-analysis/
 │
 ├── 📁 visuals/
 │   ├── category_discount.png
-│   ├── [rating_distribution.png](https://github.com/Worthwad/amazon-product-review-analysis/blob/main/Distribution%20Rating.png)
-│   └── amazon_dashboard.png
-│[Download Here](amazon_dashboard.png)
+│   ├── ![Distribution Rating](https://github.com/Worthwad/amazon-product-review-analysis/blob/main/Distribution%20Rating.png)
+│   └── ![Amazon_Review_Insight_Dashboard](https://github.com/user-attachments/assets/8e8a123b-82fb-4f0e-beae-6aec0c055ea0)
+|
 ├── 📁 dashboard/
 │   └── Amazon_Review_Insights_Dashboard.xlsx
 │
@@ -73,8 +73,7 @@ amazon-review-analysis/
 └── requirements.txt
 📌 README.md Sample Outline:
 markdown
-Copy
-Edit
+
 # Amazon Product Review Analysis
 
 ## Objective
