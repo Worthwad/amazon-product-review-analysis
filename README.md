@@ -8,10 +8,10 @@ Role: Junior Data Analyst Company: RetailTech Insights Tools: Microsoft Excel (P
 As part of a data analytics engagement at RetailTech Insights for DSA Final Project work, I work on the analysis of product and customer review data scraped from Amazon product pages. The goal was to generate insights for product development, marketing strategies, and customer engagement. This analysis leveraged Excel to clean, structure, and visualize data that could drive smart business decisions for Amazon sellers.
 
 ## Initial Setup
-- Load the dataset in Excel. [amazon_dataset.x;sx]
+- Load the dataset in Excel. [Download Here](amazon_dataset.xlsx)
 - Review the 16 columns to understand the structure. Clean data where necessary (remove NaNs, fix formatting in discount/price fields, etc.).
 
-## Data Cleaning Steps
+## Data Cleaning Steps [Download Here](amazon_transformed_data.xlsx)
 - Inspected Data Types & Structure Reviewed fields including product name, category, prices, discount, ratings, and aggregated reviews.
 - Removed Duplicates, Eliminated redundant entries based on product names and IDs to ensure data integrity.
 - Handled Missing Values
@@ -64,8 +64,8 @@ amazon-review-analysis/
 ├── 📁 visuals/
 │   ├── category_discount.png
 │   ├── rating_distribution.png
-│   └── dashboard_snapshot.png
-│
+│   └── amazon_dashboard.png
+│[Download Here](amazon_dashboard.png)
 ├── 📁 dashboard/
 │   └── Amazon_Review_Insights_Dashboard.xlsx
 │
@@ -87,8 +87,8 @@ Analyze Amazon product review data to extract insights for product improvements 
 ## Repository Structure
 - `data/`: Cleaned dataset
 - `notebooks/`: Jupyter notebooks for each step
-- `[amazon_dashboard.png]/`: Final Excel dashboard
-- `visuals/`: Key plots and dashboard snapshots
+- `amazon_dashboard.png]/`: Final Excel dashboard
+- `visuals/`: Key plots and dashboard snapshots [Download Here](amazon_dashboard.png)
 
 ## Key Insights
 - Average discount is highest in Electronics.
