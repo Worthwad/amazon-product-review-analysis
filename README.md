@@ -90,7 +90,8 @@ Analyze Amazon product review data to extract insights for product improvements 
 - ![Amazon_Review_Insight_Dashboard](https://github.com/user-attachments/assets/da37dfbd-0f8e-4cc9-bdcb-42f42b36b6a4)
 - `visuals/`: Key plots and dashboard snapshots
 - ![Average Actual vs Discounted Price](https://github.com/Worthwad/amazon-product-review--analysis/blob/main/Average%20Actual%20vs%20Discounted%20Price.png) 
-- ![Total Product By Category](https://github.com/Worthwad/amazon-product-review-analysis)](https://github.com/Worthwad/amazon-product-review-analysis/blob/main/Total%20Product%20By%20Category.png)
+- ![Total Product By Category](https://github.com/Worthwad/amazon-product-review-analysis)
+- ![Total Product By Category](https://github.com/Worthwad/amazon-product-review-analysis/blob/main/Total%20Product%20By%20Category.png)
 - ![Distribution Rating](https://github.com/Worthwad/amazon-product-review-analysis/blob/main/Distribution%20Rating.png)
 
 ## Key Insights
