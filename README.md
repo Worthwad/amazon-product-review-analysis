@@ -8,27 +8,29 @@ Role: Junior Data Analyst Company: RetailTech Insights Tools: Microsoft Excel (P
 As part of a data analytics engagement at RetailTech Insights for DSA Final Project work, I work on the analysis of product and customer review data scraped from Amazon product pages. The goal was to generate insights for product development, marketing strategies, and customer engagement. This analysis leveraged Excel to clean, structure, and visualize data that could drive smart business decisions for Amazon sellers.
 
 ## Initial Setup
-### Load the dataset in Excel.
-### Review the 16 columns to understand the structure. Clean data where necessary (remove NaNs, fix formatting in discount/price fields, etc.).
+- Load the dataset in Excel.
+- Review the 16 columns to understand the structure. Clean data where necessary (remove NaNs, fix formatting in discount/price fields, etc.).
 
 ## Data Cleaning Steps
-### Inspected Data Types & Structure Reviewed fields including product name, category, prices, discount, ratings, and aggregated reviews.
-### Removed Duplicates, Eliminated redundant entries based on product names and IDs to ensure data integrity.
-### Handled Missing Values
+- Inspected Data Types & Structure Reviewed fields including product name, category, prices, discount, ratings, and aggregated reviews.
+- Removed Duplicates, Eliminated redundant entries based on product names and IDs to ensure data integrity.
+- Handled Missing Values
   - Replaced missing categories with “Unknown”
   - Imputed missing prices with median values when necessary
   - Standardized Formats
-### Converted price columns to number format, stripped currency symbols ###
+- Converted price columns to number format, stripped currency symbols ###
   -  Applied TRIM, CLEAN, and PROPER to product names and review titles
-### Created Derived Fields
+- Created Derived Fields
   - Discount Percentage
   - Estimated Revenue = actual price × rating count
   - Price Range Buckets: <₹200, ₹200–₹500, >₹500
-### Split comma-separated values into appropriate columns if needed.
-### Convert price fields from strings to numerical values (₹200 → 200).
-### Create calculated fields: e.g., discount_percentage, actual_price, revenue = rating_count × actual_price.
+  - Distribution Rating: 1.0, 2.0, 3.0, 4.0, 5.0
+- Split comma-separated values into appropriate columns if needed.
+- Convert price fields from strings to numerical values (₹200 → 200).
+- Create calculated fields: e.g., discount_percentage, actual_price, revenue = rating_count × actual_price.
 
 ## Analysis Tasks Using Excel
+
 ### Perform the Pivot Tables & Calculated Columns by Using Excel:
 
 #### Task	                                      Calculation
@@ -39,7 +41,7 @@ As part of a data analytics engagement at RetailTech Insights for DSA Final Proj
 5. Avg actual vs discounted price by category	  Group by category, avg of both prices
 6. Products with highest number of reviews	    Sort by review_count, descending
 7. Products with ≥50% discount	                Filter discount_percentage >= 50%
-8. Distribution of ratings	                    Histogram or count by rating values (3.0, 4.0...)
+8. Distribution of ratings	                    Histogram or count by rating values (1.0, 2.0, 3.0, 4.0...)
 9. Total potential revenue per category	        rating_count × actual_price aggregated
 10. Products per price bucket	                  Create bins: <200, 200–500, >500
 11. Rating vs Discount	                        Correlation/Scatter plot
@@ -75,27 +77,26 @@ Copy
 Edit
 # Amazon Product Review Analysis
 
-## 📊 Objective
+## Objective
 Analyze Amazon product review data to extract insights for product improvements and marketing strategies.
 
-## 🧰 Tools Used
-- Python (Pandas, Matplotlib, Seaborn)
+## Tools Used
 - Excel (for pivot tables & dashboard)
 - Git for version control
 
-## 📁 Repository Structure
+## Repository Structure
 - `data/`: Cleaned dataset
 - `notebooks/`: Jupyter notebooks for each step
 - `dashboard/`: Final Excel dashboard
 - `visuals/`: Key plots and dashboard snapshots
 
-## 🔍 Key Insights
+## Key Insights
 - Average discount is highest in Electronics.
 - Category X has the most reviews.
 - Top-rated product: ABC with 4.9 stars.
 
-## 📈 Dashboard Preview
+## Dashboard Preview
 *Screenshot of your Excel dashboard*
 
-## 🚀 How to Run
+## How to Run
 Clone the repo and run notebooks in order. Excel dashboard included for quick insights.
