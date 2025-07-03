@@ -63,7 +63,7 @@ amazon-review-analysis/
 │
 ├── 📁 visuals/
 │   ├── category_discount.png
-│   ├── rating_distribution.png
+│   ├── [rating_distribution.png](https://github.com/Worthwad/amazon-product-review-analysis/blob/main/Distribution%20Rating.png)
 │   └── amazon_dashboard.png
 │[Download Here](amazon_dashboard.png)
 ├── 📁 dashboard/
